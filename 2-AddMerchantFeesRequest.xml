@@ -1,0 +1,97 @@
+<AddMerchantFeesRequest>
+	<MerchantFees>
+		<Merchant>
+			<BankNum>6316</BankNum>
+			<MerchantNum>6316155870454921</MerchantNum>
+		</Merchant>
+		<Fees>
+			<Fee>
+				<FeeIdentity>
+					<Category>1</Category>
+					<Name>V/MC/DS Authorizations</Name>
+				</FeeIdentity>
+				<KeyStructure>
+					<Key type="1" level="1">
+						<Value>011</Value>
+					</Key>
+					<Key type="2" level="2">
+						<Value>00001</Value>
+						<Value>00002</Value>
+						<Value>00003</Value>
+						<Value>00004</Value>
+						<Value>00005</Value>
+						<Value>00006</Value>
+						<Value>00007</Value>
+						<Value>00008</Value>
+						<Value>00009</Value>
+						<Value>00010</Value>
+						<Value>00011</Value>
+						<Value>00012</Value>
+						<Value>00014</Value>
+						<Value>00015</Value>
+						<Value>00016</Value>
+						<Value>00017</Value>
+						<Value>00018</Value>
+						<Value>00019</Value>
+						<Value>00020</Value>
+						<Value>00021</Value>
+						<Value>00022</Value>
+						<Value>00023</Value>
+						<Value>00024</Value>
+						<Value>00027</Value>
+					</Key>
+					<Key type="3" level="3">
+						<Value>001</Value>
+						<Value>002</Value>
+						<Value>007</Value>
+						<Value>016</Value>
+					</Key>
+					<Key type="4" level="4">
+						<Value>ALL</Value>
+					</Key>
+				</KeyStructure>
+				<Frequency>
+					<Jan>Y</Jan>
+					<Feb>Y</Feb>
+					<Mar>Y</Mar>
+					<Apr>Y</Apr>
+					<May>Y</May>
+					<Jun>Y</Jun>
+					<Jul>Y</Jul>
+					<Aug>Y</Aug>
+					<Sep>Y</Sep>
+					<Oct>Y</Oct>
+					<Nov>Y</Nov>
+					<Dec>Y</Dec>
+				</Frequency>
+				<Setting/>
+				<StatementSetting>
+					<DisplayCount>Y</DisplayCount>
+					<StatementFeeDescription>V/MC/DS Authorization Fee</StatementFeeDescription>
+					<NameAddressUsageCode>DIS</NameAddressUsageCode>
+				</StatementSetting>
+				<Pricing>
+					<BillingMethod>D</BillingMethod>
+					<DateRates>
+						<DateRate>
+							<StartDate>11/16/2016</StartDate>
+							<StopDate/>
+							<PerItem>0.10000</PerItem>
+						</DateRate>
+					</DateRates>
+				</Pricing>
+				<RateRestriction>
+					<RateLock>N</RateLock>
+					<RateRange>
+						<Amount/>
+						<Percent/>
+						<RangeLock>N</RangeLock>
+					</RateRange>
+				</RateRestriction>
+				<FeeStatus>C</FeeStatus>
+				<Override>N</Override>
+				<FeeHierarchyLevel>170</FeeHierarchyLevel>
+			</Fee>
+		</Fees>
+	</MerchantFees>
+</AddMerchantFeesRequest>
