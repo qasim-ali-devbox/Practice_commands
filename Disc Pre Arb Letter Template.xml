@@ -1,0 +1,28 @@
+<Document name="Disc Pre Arb Letter Template.pdf">
+  <Page number="1">
+    <Field name="LetterDate" x="438" y="129" width="72" font="Calibri" size="11" format="{0:d}" />
+    <Field name="CaseNumber" x="144" y="305" width="125" font="Calibri" size="11" style="bold " />
+    <Field name="MerchantName" x="349" y="172" width="180" font="Calibri" size="11" />
+    <Field name="Attention" x="349" y="185" width="187" font="Calibri" size="11" />
+    <Field name="Address" x="349" y="198" width="178" font="Calibri" size="11" />
+    <Field name="CustomReason" x="54" y="459" width="504" font="Calibri" size="12" style="bold italic " lines="5" />
+    <Field name="MerchantNumber" x="162" y="334" width="160" font="Calibri" />
+    <Field name="CardholderNumber" x="162" y="362" width="160" font="Calibri" />
+    <Field name="ReferenceNumber" x="413" y="334" width="160" font="Calibri" />
+    <Field name="TransactionDate" x="413" y="348" width="160" font="Calibri" format="{0:d}" />
+    <Field name="OriginalReference" x="162" y="376" width="160" font="Calibri" />
+    <Field name="OriginalReferenceLabel" x="54" y="376" width="106" font="Calibri" />
+    <Field name="ReplyPhone" x="442" y="700" width="158" font="Calibri" format="{0}." />
+    <Field name="ChargebackAmount" x="413" y="362" width="160" font="Calibri" format="${0:#,##0.00}" />
+    <Field name="ReasonCode" x="162" y="348" width="160" font="Calibri" />
+    <CompoundField name="City;State;Zip" x="349" y="211" width="200" font="Calibri" size="11" format="{0}, {1} {2}">
+      <Component name="City" />
+      <Component name="State" />
+      <Component name="Zip" />
+    </CompoundField>
+    <Field name="RespondByDate" x="444" y="61" width="72" font="Calibri" size="11" style="bold " format="{0:d}" />
+    <Field name="ReplyAddress" x="68" y="83" width="158" font="Calibri" size="11" />
+    <Field name="ReplyCityStateZip" x="68" y="98" width="158" font="Calibri" size="11" />
+    <Field name="ReplyEmail" x="68" y="130" width="158" font="Calibri" size="11" />
+  </Page>
+</Document> 
