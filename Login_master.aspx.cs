@@ -48,6 +48,6 @@ public partial class Login_master : System.Web.UI.Page
         {
             FormsAuthentication.RedirectFromLoginPage(TBUserName.Text, Remember.Checked);
         }
-        Label4.Text = Label4.Text + "Login failed";
+        Label4.Text = Label4.Text + "Login failed, so you can't go to home page";
     }
 }
